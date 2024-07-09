@@ -1,4 +1,4 @@
-import { navIcons, navItems } from "../constants/index";
+import {  navItems } from "../constants/index";
 
 
 const Navbar = () => {
@@ -19,10 +19,7 @@ const Navbar = () => {
 
                     </ul>
                     <div className="hidden lg:flex justify-center space-x-12 items-center">
-                        {navIcons.map((item, index) =>(
-                            <button className="border w-6 h-6" key={index}><a href="" className="border">{item.icon}</a></button>
-                            
-                        ))};
+                        
                     </div> 
                 </div>
         </div>
